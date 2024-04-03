@@ -1,0 +1,110 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+.dropdown-menu a {
+    color: black;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+
+
+.responsive-img {
+    max-width: 100%; 
+    /* height: auto;  */
+    height: min-content;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: min-content;
+}
+
+
+.line-text {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.line-text::before,
+.line-text::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    border-bottom: 1px solid #000;
+}
+
+.line-text::before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.line-text::after {
+    left: 100%;
+    margin-left: 10px;
+}
+
+/* .line-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; 
+    position: relative;
+}
+
+.line-text::before,
+.line-text::after {
+    content: '';
+    position: absolute; 
+    top: 50%; 
+    width: 45%;
+    border-bottom: 1px solid #000; 
+}
+
+.line-text::before {
+    right: 100%; 
+    margin-right: 10px;
+}
+
+.line-text::after {
+    left: 100%; 
+    margin-left: 10px; 
+} */
+
+
+
+
+.product-img {
+    max-width: 100%; /* Ensures the image does not exceed its parent container's width */
+    height: auto; /* Allows the image to scale proportionally */
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .btn-primary {
+    color: black; 
+    background-color: transparent; 
+    border-color: transparent; 
+}
+
+.btn-primary:hover {
+    color: #0056b3;
+    background-color: transparent; 
+    border-color: #0056b3; 
+} */

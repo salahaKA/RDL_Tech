@@ -1,0 +1,166 @@
+<h1>LF & UHF RFID</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data loader</title>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand mr-4" href="#">RDL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- Add more navbar items here -->
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            IOT Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="IIoT4.0.html">Data Logger IIoT 4.0</a>
+                            <a class="dropdown-item" href="datalogger.html">Data Logger</a>
+                            <a class="dropdown-item" href="Automation.html">IoT & Automation</a>
+                            <a class="dropdown-item" href="./HMI&Display.html">HMI & Display Board</a>
+                            <a class="dropdown-item" href="./LF&UHF.html">LF & UHF RFID</a>
+                            <a class="dropdown-item" href="./CoE.html">IoT CoE</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            IOT Solutions
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Shop Floor AI 4.0</a>
+                            <a class="dropdown-item" href="#">Energy management system</a>
+                            <a class="dropdown-item" href="#">Condition Monitoring</a>
+                            <a class="dropdown-item" href="#">Water Balancing System</a>
+                            <a class="dropdown-item" href="#">Cold storage Monitoring</a>
+                            <a class="dropdown-item" href="#">Utility Monitoring System</a>
+                            <a class="dropdown-item" href="#">Grounding & ESD Safety</a>
+                            <a class="dropdown-item" href="#">Andon System</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            LiFi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">R-LiFi</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">PCB Design Services</a>
+                            <a class="dropdown-item" href="#">Hardware Design Services</a>
+                            <a class="dropdown-item" href="#">Software Design Services</a>
+                            <a class="dropdown-item" href="#">Keypad Design Services</a>
+                            <a class="dropdown-item" href="#">Prototype Design Services</a>
+                            <a class="dropdown-item" href="#">Enclosure Design Services</a>
+                            <a class="dropdown-item" href="#">HMI Design Services</a>
+                            <a class="dropdown-item" href="#">EMS Services</a>
+                            <a class="dropdown-item" href="#">OEM ODM</a>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">SHOPE</a>
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="#">Contact Us</a>
+                            <a class="dropdown-item" href="#">Cloud PLC 4.0</a>
+                            <a class="dropdown-item" href="#">Indino 4.0</a>
+                            <a class="dropdown-item" href="#">News</a>
+                        </div>
+                    </li>
+                </ul>
+
+
+
+                <a class="nav-link" href="#" style="color: black;">
+                    <i style="font-size:24px; color:black;" class="fa">&#xf07a;</i>
+                    Cart
+                </a>
+
+                <!-- <i class="bi bi-search"></i> -->
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <br>
+
+
+
+    <footer>
+        <div class="container" style="background-color: beige;">
+            <div class="row">
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.8s">
+                    <p style="text-align: center;">Copyright © 2024 RDL Technologies Pvt Ltd - All Rights Reserved..
+                        <br>
+                    </p>
+                    <p style="text-align: center;">Powered by RDL</p>
+                    <a href="#" style="color: rgb(131, 129, 129);">Data Logger IIoT 4.0</a>
+                    <a href="#" style="color: rgb(131, 129, 129);">Energy management System</a>
+                    <a href="#" style="color: rgb(131, 129, 129);">Condition Monitorng</a>
+                    <a href="#" style="color: rgb(131, 129, 129);">Water Balancing System</a>
+                    <a href="#" style="color: rgb(131, 129, 129);">Shop</a>
+                    <a href="#" style="color: rgb(131, 129, 129);">Cloud PLC 4.0</a>
+                    <a href="#" style="color: rgb(131, 129, 129);">Indino 4.0</a>
+                    <hr>
+                    <style>
+                        .a {
+                            color: black;
+                        }
+                    </style>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
