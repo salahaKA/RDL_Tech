@@ -1,0 +1,33 @@
+@media(min-width:640px){
+    h1{
+        color: red;
+    }
+}
+
+.cel h3{
+    text-align: center;
+}
+.cel img{
+    width: 250px;
+    height: 190px;
+    
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    
+}
+.left {
+    left: 0;
+    
+  }
+  .right {
+    right: 0;
+    
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
