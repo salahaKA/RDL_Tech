@@ -1,0 +1,30 @@
+.header{
+    width:100%;
+    background: black;
+    height: 100px;
+}
+
+.left{
+    width:10%;
+    height:400px;
+    background: rgb(13, 108, 114);
+    float: left;
+}
+
+.right{
+    width:80%;
+    height:400px;
+    background: rgb(147, 140, 9);
+    float: left;
+}
+
+.footer{
+    width:100%;
+    background: black;
+    height: 100px;
+}
+
+.content{
+    height:400px;
+}
+

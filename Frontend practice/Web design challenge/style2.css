@@ -28,3 +28,37 @@ div{
     border-color: #a3c36b;
     background-color: #21437f;
 }
+
+.outer-box{
+    width: 100%;
+    height: 500px;
+    background: #a3c36b;
+    padding: 10px;
+}
+.box1{
+    width:40%;
+    height: 30%;
+    background-color: crimson;
+    float: left;
+}
+
+.box2{
+    width:40%;
+    height: 30%;
+    background-color: rgb(173, 62, 84);
+    float: left;
+}
+
+.box3{
+    width:40%;
+    height: 30%;
+    background-color: rgb(179, 160, 16);
+    float: left;
+}
+
+.box4{
+    width:40%;
+    height: 30%;
+    background-color: rgb(198, 124, 12);
+    float: left;
+}
