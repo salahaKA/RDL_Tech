@@ -1,0 +1,30 @@
+button{
+    background: gray;
+    color: yellow;
+}
+p{
+    color:#bd6726;
+    
+}
+
+#para1{
+    color:#73a817;
+    
+}
+
+.content{
+    color: chartreuse;
+    text-align: center;
+    background-color: rgb(247, 76, 104);
+}
+
+div{
+    width:300px;
+    height:200px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    border: 5px solid;
+    border-color: #a3c36b;
+    background-color: #21437f;
+}
