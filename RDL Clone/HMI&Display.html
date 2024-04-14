@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDL Tech</title>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <a class="navbar-brand mr-4" href="home.html">
+                    <h3>RDL</h3>
+                </a>
+            </div>
+            <div class="nav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 24px;">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <!-- Add more navbar items here -->
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    IOT Products
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="IIoT4.0.html">Data Logger IIoT 4.0</a>
+                                    <a class="dropdown-item" href="datalogger.html">Data Logger</a>
+                                    <a class="dropdown-item" href="Automation.html">IoT & Automation</a>
+                                    <a class="dropdown-item" href="HMI&Display.html">HMI & Display Board</a>
+                                    <a class="dropdown-item" href="./LF&UHF.html">LF & UHF RFID</a>
+                                    <a class="dropdown-item" href="./CoE.html">IoT CoE</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    IOT Solutions
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Shop Floor AI 4.0</a>
+                                    <a class="dropdown-item" href="#">Energy management system</a>
+                                    <a class="dropdown-item" href="#">Condition Monitoring</a>
+                                    <a class="dropdown-item" href="#">Water Balancing System</a>
+                                    <a class="dropdown-item" href="#">Cold storage Monitoring</a>
+                                    <a class="dropdown-item" href="#">Utility Monitoring System</a>
+                                    <a class="dropdown-item" href="#">Grounding & ESD Safety</a>
+                                    <a class="dropdown-item" href="#">Andon System</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    LiFi
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">R-LiFi</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">PCB Design Services</a>
+                                    <a class="dropdown-item" href="#">Hardware Design Services</a>
+                                    <a class="dropdown-item" href="#">Software Design Services</a>
+                                    <a class="dropdown-item" href="#">Keypad Design Services</a>
+                                    <a class="dropdown-item" href="#">Prototype Design Services</a>
+                                    <a class="dropdown-item" href="#">Enclosure Design Services</a>
+                                    <a class="dropdown-item" href="#">HMI Design Services</a>
+                                    <a class="dropdown-item" href="#">EMS Services</a>
+                                    <a class="dropdown-item" href="#">OEM ODM</a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    More
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">SHOPE</a>
+                                    <a class="dropdown-item" href="#">About Us</a>
+                                    <a class="dropdown-item" href="#">Contact Us</a>
+                                    <a class="dropdown-item" href="#">Cloud PLC 4.0</a>
+                                    <a class="dropdown-item" href="#">Indino 4.0</a>
+                                    <a class="dropdown-item" href="#">News</a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <div class="search-icon" onclick="toggleSearch()">
+                            <img src="./images/search2.jpeg" alt="Search">
+
+                        </div>
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Search Products">
+
+                            <!-- <button class="search-button" onclick="search()">Search</button> -->
+                            <button class="cancel-button" onclick="cancel()"
+                                style="color: black; font-size: medium; text-align: center;">X</button>
+                        </div>
+
+                        <a class="nav-link" href="#" style="color: black;">
+                            <i style="font-size:24px; color:black;" class="fa">&#xf07a;</i>
+                        </a>
+                    </div>
+            </div>
+        </div><br>
+
+        <div class="container">
+            <h1 style="text-align: center;">Human Machine Interface - HMI</h1>
+        <p style="text-align: center;">Human Machine Interface (HMI) is a device that enables line operators, managers,
+            and supervisors to monitor and control the machinery and manufacturing process in order to improve product
+            quality and efficiency. HMI supports .net , QT and Web based applications for easy IoT Application
+            Integration .</p>
+
+
+        <div class="line-text">
+            __________________________________________________________________________ HMI Products
+            __________________________________________________________________________
+
+        </div><br>
+        <div class="row" col-md-6>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedestal HMI</h5>
+                        <img src="./images/hmi1.webp" alt="Product 2" class="img-fluid product-img">
+                        <br>
+
+                        <ul>
+                            <li>Multi Touch Capacitive Touch screen HMI</li>
+                            <li>15 inch HDMI Display </li>
+                            <li>Intel Atom Z8350; Quad-Core CPU</li>
+                            <li>4 GB DDR3 RAM</li>
+                            <li>32 GB emmc Storage</li>
+                            <li>1 Gbps Ethernet + Built-in Wifi</li>
+                            <li>Standy Type / Panel mount </li>
+                            <li>Windows OEM / Linux OS </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Panel Mount HMI</h5>
+                        <img src="./images/hmi2.webp" alt="Product 2" class="img-fluid product-img">
+                        <style>
+                            .product-img {
+                                max-width: 100%;
+                                max-height: 200px;
+                                width: auto;
+                                height: auto;
+                            }
+                        </style>
+                        <br>
+                        <ul>
+                            <li>Multi Touch Capacitive Touch screen HMI</li>
+                            <li>15 inch HDMI Display </li>
+                            <li>Intel Atom Z8350; Quad-Core CPU</li>
+                            <li>4 GB DDR3 RAM</li>
+                            <li>32 GB emmc Storage</li>
+                            <li>1 Gbps Ethernet + Built-in Wifi</li>
+                            <li>Standy Type / Panel mount </li>
+                            <li>Windows OEM / Linux OS </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="line-text">
+            _________________________________________________________________ Industry Grade Display Boards
+            _________________________________________________________________
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Production Monitoring Display</h5>
+                        <img src="./images/hmi3.webp" alt="Product9" class="img-fluid product-img">
+                        <p class="card-text">If customers can’t find it, it doesn’t exist. Clearly list and describe the
+                            services you offer. Also, be sure to showcase a premium service.
+
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Andon Display</h5>
+                        <img src="./images/hmi4.webp" alt="Product10" class="img-fluid product-img">
+                        <p class="card-text">Having a big sale, on-site celebrity, or other event? Be sure to announce
+                            it so everybody knows and gets excited about it.</p>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Machinery Monitoring Display</h5>
+                        <img src="./images/hmi5.webp" alt="Product11" class="img-fluid product-img">
+                        <p class="card-text">Are your customers raving about you on social media? Share their great
+                            stories to help turn potential customers into loyal ones.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">KANBAN Display Board</h5>
+                        <img src="./images/hmi6.webp" alt="Product9" class="img-fluid product-img">
+                        <p class="card-text">Running a holiday sale or weekly special? Definitely promote it here to get
+                            customers excited about getting a sweet deal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">SPQDC Display Board</h5>
+                        <img src="./images/hmi7.webp" alt="Product10" class="img-fluid product-img">
+                        <p class="card-text">Have you opened a new location, redesigned your shop, or added a new
+                            product or service? Don't keep it to yourself, let folks know.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Utilities Monitoring Display</h5>
+                        <img src="./images/hmi8.webp" alt="Product11" class="img-fluid product-img">
+                        <p class="card-text">Customers have questions, you have answers. Display the most frequently
+                            asked questions, so everybody benefits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="line-text">
+            _________________________________________________________________ Frequently Asked Questions
+            _________________________________________________________________
+
+        </div><br>
+        <div class="text-center">
+            <p>Please reach us at <a href="mailto:raghav@rdltech.in">raghav@rdltech.in</a> if you cannot find an answer
+                to your question.</p>
+        </div><br>
+        <div class="text-center">
+            <style>
+                /* Style for dropdown */
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                /* Style for dropdown content */
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+                }
+
+                /* Style for dropdown content items */
+                .dropdown-content a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                /* Style for dropdown content items on hover */
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1
+                }
+
+                /* Show dropdown content when hover on dropdown */
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+            </style>
+            </head>
+
+            <body>
+
+                <div class="dropdown">
+                    <button class="dropbtn">First Question</button>
+                    <div class="dropdown-content">
+                        <a>Add an answer to this item.</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Second Question</button>
+                    <div class="dropdown-content">
+                        <a>Add an answer to this item.</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Third Question</button>
+                    <div class="dropdown-content">
+                        <a>Add an answer to this item.</a>
+                    </div>
+                </div>
+        </div>
+        <br>
+        </div>
+
+        <footer>
+            <div class="footer" style="background-color: beige;">
+                <div class="row">
+                    <div class="col-md-12 wow fadeIn" data-wow-delay="0.8s">
+                        <p style="text-align: center;">Copyright © 2024 RDL Technologies Pvt Ltd - All Rights Reserved..
+                            <br>
+                        </p>
+                        <p style="text-align: center;">Powered by RDL</p>
+                        <a href="#" style="color: rgb(131, 129, 129);">Data Logger IIoT 4.0</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Energy management System</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Condition Monitorng</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Water Balancing System</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Shop</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Cloud PLC 4.0</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Indino 4.0</a>
+                        <hr>
+                        <style>
+                            .a {
+                                color: black;
+                            }
+                        </style>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</html>
