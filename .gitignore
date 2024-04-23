@@ -63,3 +63,172 @@ images/
 # 3D Images
 *.3dm
 *.max
+
+
+# Ignore npm and yarn dependencies
+node_modules/
+
+# Ignore build files
+build/
+dist/
+
+# Ignore environment variables
+.env
+
+# Ignore any local development server configurations
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore log files
+*.log
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Jest coverage directory
+coverage/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn debug log
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore generated files by Create React App
+*.pnp.js
+.pnp.js
+*.pnp.js.map
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore parcel-bundler cache (uncomment if using Parcel for building)
+# .cache/
+
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore flow-typed directory
+flow-typed/
+
+# Ignore .env.local.js if using dotenv-webpack plugin for webpack
+.env.local.js
+
+# Ignore CRA service worker generated files
+precache-manifest*
+service-worker.js
+
+# Ignore coverage output directory
+coverage/
+
+# Ignore storybook generated files (uncomment if using Storybook)
+# .storybook/
+
+
+
+# Ignore README files
+README.md
+readme.md
+Readme.md
+
+# Ignore package.json and lock files
+package.json
+package-lock.json
+yarn.lock
+
+# Ignore Vite cache and build output
+node_modules/
+/dist/
+/.vite/
+
+# Ignore Vite config file
+vite.config.js
+
+
+
+
+# Ignore npm and yarn dependencies
+node_modules/
+
+# Ignore built files
+build/
+dist/
+out/
+
+# Ignore logs
+logs/
+
+# Ignore .env files
+.env
+.env.*
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+*.swo
+
+# Ignore dependencies installed by npm 5+
+package-lock.json
+
+# Ignore yarn.lock file
+yarn.lock
+
+# Ignore Jest coverage directory
+coverage/
+
+# Ignore tsconfig build directory
+tsconfig.tsbuildinfo
+
+# Ignore production config files
+config/
+
+# Ignore database migrations
+*.migration.js
+
+# Ignore server logs
+*.log
+
+# Ignore debug logs
+debug.log
+
+# Ignore Docker related files
+Dockerfile
+.dockerignore
+
+# Ignore generated API documentation
+docs/
+
+# Ignore server-generated files
+tmp/
+
+# Ignore any environment specific configurations
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore any local development server configurations
+.env.development
+
+# Ignore generated SSL certificate
+server.key
+server.crt
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore .vscode settings if using VS Code
+.vscode/settings.json

@@ -1,0 +1,50 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "name": "Salaha",
+      "email": "kadeejasalaha123@gmail.com",
+      "phone": "9876543210",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "2",
+      "name": "Adeena",
+      "email": "Adeenarenjith2@gmail.com",
+      "phone": "98765432689",
+      "website": "adeena.org"
+    },
+    {
+      "id": "3",
+      "name": "Aparna",
+      "email": "kadeejasalaha123@gmail.com",
+      "phone": "9876543210",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "4",
+      "name": "Apoorva",
+      "email": "apoorva@gmail.com",
+      "phone": "9876546657",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "fd3d",
+      "name": "Kadeejath Salaha",
+      "email": "kadeejasalaha123@gmail.com",
+      "phone": "9645176669"
+    },
+    {
+      "id": "3379",
+      "name": "SuhailaKA",
+      "email": "suhailaka@gmail.com",
+      "phone": "5426526452765"
+    },
+    {
+      "id": "5d0c",
+      "name": "Kripalu",
+      "email": "kripalu@gmail.com",
+      "phone": "3467572654723"
+    }
+  ]
+}
