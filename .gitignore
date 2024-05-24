@@ -141,9 +141,9 @@ readme.md
 Readme.md
 
 # Ignore package.json and lock files
-package.json
-package-lock.json
-yarn.lock
+#package.json
+# package-lock.json
+# yarn.lock
 
 # Ignore Vite cache and build output
 node_modules/
