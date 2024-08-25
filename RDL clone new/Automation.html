@@ -1,0 +1,502 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDL Tech</title>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <a class="navbar-brand mr-4" href="home.html">
+                    <h3>RDL</h3>
+                </a>
+            </div>
+            <div class="nav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 24px;">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <!-- Add more navbar items here -->
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    IOT Products
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="IIoT4.0.html">Data Logger IIoT 4.0</a>
+                                    <a class="dropdown-item" href="datalogger.html">Data Logger</a>
+                                    <a class="dropdown-item" href="Automation.html">IoT & Automation</a>
+                                    <a class="dropdown-item" href="HMI&Display.html">HMI & Display Board</a>
+                                    <a class="dropdown-item" href="./LF&UHF.html">LF & UHF RFID</a>
+                                    <a class="dropdown-item" href="./CoE.html">IoT CoE</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    IOT Solutions
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Shop Floor AI 4.0</a>
+                                    <a class="dropdown-item" href="#">Energy management system</a>
+                                    <a class="dropdown-item" href="#">Condition Monitoring</a>
+                                    <a class="dropdown-item" href="#">Water Balancing System</a>
+                                    <a class="dropdown-item" href="#">Cold storage Monitoring</a>
+                                    <a class="dropdown-item" href="#">Utility Monitoring System</a>
+                                    <a class="dropdown-item" href="#">Grounding & ESD Safety</a>
+                                    <a class="dropdown-item" href="#">Andon System</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    LiFi
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">R-LiFi</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">PCB Design Services</a>
+                                    <a class="dropdown-item" href="#">Hardware Design Services</a>
+                                    <a class="dropdown-item" href="#">Software Design Services</a>
+                                    <a class="dropdown-item" href="#">Keypad Design Services</a>
+                                    <a class="dropdown-item" href="#">Prototype Design Services</a>
+                                    <a class="dropdown-item" href="#">Enclosure Design Services</a>
+                                    <a class="dropdown-item" href="#">HMI Design Services</a>
+                                    <a class="dropdown-item" href="#">EMS Services</a>
+                                    <a class="dropdown-item" href="#">OEM ODM</a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    More
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">SHOPE</a>
+                                    <a class="dropdown-item" href="#">About Us</a>
+                                    <a class="dropdown-item" href="#">Contact Us</a>
+                                    <a class="dropdown-item" href="#">Cloud PLC 4.0</a>
+                                    <a class="dropdown-item" href="#">Indino 4.0</a>
+                                    <a class="dropdown-item" href="#">News</a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <div class="search-icon" onclick="toggleSearch()">
+                            <img src="./images/search2.jpeg" alt="Search">
+
+                        </div>
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Search Products">
+
+                            <!-- <button class="search-button" onclick="search()">Search</button> -->
+                            <button class="cancel-button" onclick="cancel()"
+                                style="color: black; font-size: medium; text-align: center;">X</button>
+                        </div>
+
+                        <a class="nav-link" href="#" style="color: black;">
+                            <i style="font-size:24px; color:black;" class="fa">&#xf07a;</i>
+                        </a>
+                    </div>
+            </div>
+        </div><br>
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="line-text">
+                    ___________________________________________________________________IoT & Automation
+                    Products_________________________________________________________________
+                </div><br>
+            </div>
+            <div class="row" col-md-6>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Industry Data Logger 4.0</h5>
+                            <img src="./images/auto1.webp" alt="Product 2" class="img-fluid product-img">
+                            <br>
+                            <p class="card-text">Industrial Data Logger 4.0 can used to build the custom industrial solution
+                                for monitoring PLC and SCADA, HMI, VFD , Motors, servo, Valves, energy meter, actuators,
+                                relays, encoder, RFID and finger print readers and industrial sensors</p>
+                            <ul>
+                                <li><b>Digital IO:</b></li>
+                                <li>24v 8x Isolated digital input</li>
+                                <li>24v 4x Isolated Digital output </li>
+                                <li>Isolation: 3750VRMS </li>
+                                <li><b>Analog IO:</b> 8x ADC 0-10V/ 4-20mA max. 10 / 16 bit ADC resolution</li>
+                                <li><b>Wired Connectivity :</b> RS485 MODBUS, RS232 & USB ,Ethernet 10/100Mbps, RDL
+                                    Expansion Bus</li>
+                                <li><b>Memory :</b> SD CARD 16GB </li>
+                                <li><b>Wireless Connectivity :</b>Wi-Fi: 802.11 b/g/n/e/i (802.11n @ up to 150 Mbit/s)
+                                    Bluetooth: v4.2 Bluetooth Low Energy (BLE) LoRa / Xbee, GPRS/GPS</li>
+                                <li><b>RTC :</b> Built-in RTC for stamped data logging </li>
+                                <li><b>Protocol :</b> TCP-IP, UDP, MODBUS, FTP, RESTFULL, JSON & MQTT </li>
+                                <li><b>Security :</b> SSL</li>
+                                <li><b>Power supply: </b> 12 - 24v</li>
+                            </ul>
+                            <br><br><br><br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud PLC 4.0</h5>
+                            <img src="./images/auto2.webp" alt="Product 2" class="img-fluid product-img">
+                            <style>
+                                .product-img {
+                                    max-width: 100%;
+                                    max-height: 200px;
+                                    width: auto;
+                                    height: auto;
+                                }
+                            </style>
+                            <br>
+                            <p class="card-text">Cloud PLC 4.0 supporting for custom programming and wide range of
+                                industrial protocols, like Modbus, MQTT, JSON, RESTful, TCP/UDP, SNMP protocol, which makes
+                                the monitoring and solution integration, easier than ever for IT engineers through open
+                                source APIs.. </p>
+                            <ul>
+                                <li><b>Digital IO:</b></li>
+                                <li>24v 8x Isolated digital input</li>
+                                <li>24v 4x Isolated Digital output </li>
+                                <li>Isolation: 3750VRMS </li>
+                                <li><b>Analog IO:</b> 8x ADC 0-10V/ 4-20mA max. 10 / 16 bit ADC resolution</li>
+                                <li><b>Wired Connectivity :</b> RS485 MODBUS, RS232 & USB ,Ethernet 10/100Mbps, RDL
+                                    Expansion Bus</li>
+                                <li><b>Memory :</b> SD CARD 16GB </li>
+                                <li><b>Wireless Connectivity :</b>Wi-Fi: 802.11 b/g/n/e/i (802.11n @ up to 150 Mbit/s)
+                                    Bluetooth: v4.2 Bluetooth Low Energy (BLE) LoRa / Xbee, GPRS/GPS</li>
+                                <li><b>RTC :</b> Built-in RTC for stamped data logging </li>
+                                <li><b>Protocol :</b> TCP-IP, UDP, MODBUS, FTP, RESTFULL, JSON & MQTT </li>
+                                <li><b>Security :</b> SSL</li>
+                                <li><b>Power supply: </b> 12 - 24v</li>
+                            </ul>
+                            <br><br><br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Biometric Authentication System for PLC and SCADA</h5>
+                            <img src="./images/auto3.webp" alt="Product 2" class="img-fluid product-img">
+                            <br>
+                            <p class="card-text">RDL Biometric Add on Block product is designed to seamlessly integrate with
+                                the shop ﬂoor machinery. The flexible and customizable design allows you to control various
+                                operations like switching machine job operation, down time escalation and product loss
+                                escalation.
+    
+                                The product is tested with all major PLC /HMI vendors and supports multiple interface
+                                options.</p>
+                            <ul>
+                                <li><b>Digital IO:</b></li>
+                                <li>24v 8x Isolated digital input</li>
+                                <li>24v 4x Isolated Digital output </li>
+                                <li>Isolation: 3750VRMS </li>
+                                <li><b>Analog IO:</b> 8x ADC 0-10V/ 4-20mA max. 10 / 16 bit ADC resolution</li>
+                                <li><b>Wired Connectivity :</b> RS485 MODBUS, RS232 & USB ,Ethernet 10/100Mbps, RDL
+                                    Expansion Bus</li>
+                                <li><b>Memory :</b> SD CARD 16GB </li>
+                                <li><b>Wireless Connectivity :</b>Wi-Fi: 802.11 b/g/n/e/i (802.11n @ up to 150 Mbit/s)
+                                    Bluetooth: v4.2 Bluetooth Low Energy (BLE) LoRa / Xbee, GPRS/GPS</li>
+                                <li><b>RTC :</b> Built-in RTC for stamped data logging </li>
+                                <li><b>Protocol :</b> TCP-IP, UDP, MODBUS, FTP, RESTFULL, JSON & MQTT </li>
+                                <li><b>Security :</b> SSL</li>
+                                <li><b>Power supply: </b> 12 - 24v</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" col-md-6>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Automated Machine Fault Alerting System</h5>
+                            <img src="./images/auto5.webp" alt="Product 2" class="img-fluid product-img">
+                            <br>
+                            <p class="card-text"> Add on Automated Fault Alerting block for any existing PLC & SCADA
+                                environment to send emergency alert as SMS to remote user on real time basis .</p>
+                            <ul>
+                                <li>Support for RS232 / RS485 MODBUS RTU / TCP communication protocol .</li>
+                                <li>GSM GPRS SIMCOm800c Modem communication.</li>
+                                <li>Support both Wall and DIN mount requirements</li>
+                                <li>Input Power Supply 36V</li><br>
+                                <li>Custom Built software for adding / deleting / assigning user and Fault status messaging
+                                    system</li>
+                                <li><b>>Enclosure:</b> IP 20 </li>
+                                <li><b>Mounting:</b>Wall / DIN Rail</li>
+                            </ul>
+                            <br><br><br><br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">UHF RFID Reader</h5>
+                            <img src="./images/auto6.webp" alt="Product 2" class="img-fluid product-img">
+                            <!-- <style>
+                                .product-img {
+                                    max-width: 100%; 
+                                    max-height: 200px; 
+                                    width: auto; 
+                                    height: auto; 
+                                }
+                            </style> -->
+                            <br>
+                            <p class="card-text">UHF RFID Reader by RDL Technologies is designed keeping in mind about the
+                                Industrial Environment. UHF RFID Reader is designed to monitor and identify the tracks and
+                                pallets by integrating with PLC and SCADA</p>
+                            <ul>
+                                <li><b>DC Supply Voltage:</b>5-30V</li>
+                                <li><b>Frequency:</b>840-960MHZ</li>
+                                <li><b>Output power: </b>18-26 dBm </li>
+                                <li><b>Output power accuracy: </b>+/- 1dB</li>
+                                <li><b>Output power ﬂatness: </b>+/- 0.2dB</li>
+                                <li><b>Receive sensitivity:</b> lt -70dBm</li>
+                                <li><b>Protocol: </b>EPC global UHF Class 1 Gen 2 / ISO 18000-6C</li>
+                                <li><b>Operating time: </b> lt 100mS</li>
+                                <li><b>Read/write range:</b>Read: 50-200cm; write: 5-10cm (Read range subject to environment
+                                    and tag Manufacturer)</li>
+                                <li><b>Store tag peak speed:</b>lt 50pcs/sec</li>
+                                <li><b>Tags RSSI:</b>Support </li>
+                                <li><b>Communication interface: </b>RS232 / Rs485</li>
+                                <li><b>Communication baud rate:</b>115200 bps (default and recommend) 38400bps </li>
+                                <li><b>Operation temp.: </b>- 20 °C - + 70 °C</li>
+                                <li><b>Storage temp.: </b>- 20 °C - + 85 °C</li>
+                                <li><b></b> lt 95% ( + 25 °C) </li>
+                                <li><b>External Dimension(mm):</b>84x59x34 </li>
+                                <li><b>Enclosure: </b>IP65</li>
+                            </ul>
+                            <br><br><br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RS485 RTU to Modbus TCP converter</h5>
+                            <img src="./images/auto7.webp" alt="Product 2" class="img-fluid product-img">
+                            <br>
+                            <p class="card-text">RDL industrial MODBUS RTU converter allows to communication with Modbus RTU
+                                devices to Modbus TCP network .</p>
+                            <ul>
+                                <li>5 to 24 volts DC Supply.</li>
+                                <li>Support up to 32 Modbus RTU salve device</li>
+                                <li>One serial RS232 com port.</li>
+                                <li>On board RTC enabled.</li>
+                                <li>Support to configure the device through the software</li>
+                                <li><b>Enclosure:</b>
+                                    <ul>
+                                        <li>IP 20 </li>
+                                        <li> Mounting: Wall / DIN Rail</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+    
+            <div class="line-text">
+                ____________________________________________________________________________ Contact Us
+                ___________________________________________________________________________
+    
+            </div><br>
+            <div class="autform">
+                <h1 style="text-align: center;">Drop us a line!</h1>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="confirm" name="confirm" required>
+                        <label class="form-check-label" for="confirm">Sign up for our email list for updates, promotions,
+                            and more.</label>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary mt-3 transparent-bg">Send</button>
+                    </div>
+                    <a href="#" style="text-decoration: none;">
+                        <p style="text-align: center; color: gray;">This site is protected by reCAPTCHA and the Google
+                            Privacy Policy and Terms of Service apply.</p>
+                    </a>
+                </form>
+                <style>
+                    .autform {
+                        max-width: 500px;
+                        margin: auto;
+                        padding: 20px;
+                    }
+    
+                    .contact-form {
+                        border: 1px solid #ccc;
+                        padding: 20px;
+                        border-radius: 5px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+    
+                    .transparent-bg {
+                        background-color: transparent !important;
+                        color: black;
+                        text-align: center;
+                        border-radius: 10px;
+                    }
+    
+                    .transparent-bg:hover {
+                        color: rgb(132, 128, 128);
+                    }
+                </style>
+            </div>
+    
+            <div>
+                <h1 style="text-align: center;">Better yet, see us in person!</h1><br>
+                <p style="text-align: center;">We love our customers, so feel free to visit during normal business hours.
+                </p>
+                <div style="text-align: center;  color: white;">
+                    <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER_HERE" class="whatsapp-button"
+                        style="text-decoration: none;">
+                        <img src="./images/whatsapp2.jpg" alt="WhatsApp Icon" class="whatsapp-icon">Message us on
+                        WhatsApp</a>
+                </div>
+                <style>
+                    .whatsapp-icon {
+                        width: 20px;
+                        margin-right: 5px;
+                    }
+    
+                    .whatsapp-button {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        background-color: #7a7b7a;
+                        color: white;
+                        border: none;
+                        border-radius: 20px;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 16px;
+                        margin-top: 20px;
+                        text-align: center;
+                    }
+    
+                    .whatsapp-button:hover {
+                        color: rgb(9, 9, 9);
+                    }
+                </style><br>
+            </div>
+            <br><br>
+    
+            <div class="text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>RDL Technologies Pvt Ltd</h2>
+                        <p>RDL Technologies PVT LTD, 4th floor, <br>Oberle Tower, Balmatta, Mangalore, KA 575002, IN</p>
+                        <p>098862 71407</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Hours</h3>
+                        <p><strong>Monday:</strong> 09:00 am – 05:00 pm</p>
+                        <p><strong>Tuesday:</strong> 09:00 am – 05:00 pm</p>
+                        <p><strong>Wednesday:</strong> 09:00 am – 05:00 pm</p>
+                        <p><strong>Thursday:</strong> 09:00 am – 05:00 pm</p>
+                        <p><strong>Friday:</strong> 09:00 am – 05:00 pm</p>
+                        <p><strong>Saturday:</strong> Closed</p>
+                        <p><strong>Sunday:</strong> Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer" style="background-color: beige;">
+                <div class="row">
+                    <div class="col-md-12 wow fadeIn" data-wow-delay="0.8s">
+                        <p style="text-align: center;">Copyright © 2024 RDL Technologies Pvt Ltd - All Rights Reserved..
+                            <br>
+                        </p>
+                        <p style="text-align: center;">Powered by RDL</p>
+                        <a href="#" style="color: rgb(131, 129, 129);">Data Logger IIoT 4.0</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Energy management System</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Condition Monitorng</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Water Balancing System</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Shop</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Cloud PLC 4.0</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Indino 4.0</a>
+                        <hr>
+                        <style>
+                            .a {
+                                color: black;
+                            }
+                        </style>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</html>

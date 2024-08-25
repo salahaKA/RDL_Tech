@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDL Tech</title>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <a class="navbar-brand mr-4" href="home.html">
+                    <h3>RDL</h3>
+                </a>
+            </div>
+            <div class="nav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 24px;">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <!-- Add more navbar items here -->
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    IOT Products
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="IIoT4.0.html">Data Logger IIoT 4.0</a>
+                                    <a class="dropdown-item" href="datalogger.html">Data Logger</a>
+                                    <a class="dropdown-item" href="Automation.html">IoT & Automation</a>
+                                    <a class="dropdown-item" href="HMI&Display.html">HMI & Display Board</a>
+                                    <a class="dropdown-item" href="./LF&UHF.html">LF & UHF RFID</a>
+                                    <a class="dropdown-item" href="./CoE.html">IoT CoE</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    IOT Solutions
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Shop Floor AI 4.0</a>
+                                    <a class="dropdown-item" href="#">Energy management system</a>
+                                    <a class="dropdown-item" href="#">Condition Monitoring</a>
+                                    <a class="dropdown-item" href="#">Water Balancing System</a>
+                                    <a class="dropdown-item" href="#">Cold storage Monitoring</a>
+                                    <a class="dropdown-item" href="#">Utility Monitoring System</a>
+                                    <a class="dropdown-item" href="#">Grounding & ESD Safety</a>
+                                    <a class="dropdown-item" href="#">Andon System</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    LiFi
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">R-LiFi</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">PCB Design Services</a>
+                                    <a class="dropdown-item" href="#">Hardware Design Services</a>
+                                    <a class="dropdown-item" href="#">Software Design Services</a>
+                                    <a class="dropdown-item" href="#">Keypad Design Services</a>
+                                    <a class="dropdown-item" href="#">Prototype Design Services</a>
+                                    <a class="dropdown-item" href="#">Enclosure Design Services</a>
+                                    <a class="dropdown-item" href="#">HMI Design Services</a>
+                                    <a class="dropdown-item" href="#">EMS Services</a>
+                                    <a class="dropdown-item" href="#">OEM ODM</a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown"> <!-- Dropdown menu for "More" -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    More
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">SHOPE</a>
+                                    <a class="dropdown-item" href="#">About Us</a>
+                                    <a class="dropdown-item" href="#">Contact Us</a>
+                                    <a class="dropdown-item" href="#">Cloud PLC 4.0</a>
+                                    <a class="dropdown-item" href="#">Indino 4.0</a>
+                                    <a class="dropdown-item" href="#">News</a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <div class="search-icon" onclick="toggleSearch()">
+                            <img src="./images/search2.jpeg" alt="Search">
+
+                        </div>
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Search Products">
+
+                            <!-- <button class="search-button" onclick="search()">Search</button> -->
+                            <button class="cancel-button" onclick="cancel()"
+                                style="color: black; font-size: medium; text-align: center;">X</button>
+                        </div>
+
+                        <a class="nav-link" href="#" style="color: black;">
+                            <i style="font-size:24px; color:black;" class="fa">&#xf07a;</i>
+                        </a>
+                    </div>
+            </div>
+        </div><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./images/4post.webp" alt="Placeholder Image" class="img-fluid img-container"
+                        style="width: 100%;">
+                </div>
+                <div class="col-md-12">
+                    <h2 class="text-center"><b>IoT & LiFi</b></h2>
+                </div>
+                <div class="col-md-12">
+                    <div class="line-text">
+                        _______________________________________________________________________________Products_______________________________________________________________________________
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/img1.webp" alt="Product 1" class="img-fluid product-img">
+                            <h5 class="card-title">R-LiFi</h5>
+                            <p class="card-text">Visible Light Communication (LiFi) is technology of the future. Develop
+                                LiFi enabled solutions faster with RDL's Reliable, Plug and Play Starter kit. LiFi finds
+                                applications in consumer, wearable, industrial, medical and Internet of Things (IoT).
+                            </p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/img2.webp" alt="Product 2" class="img-fluid product-img">
+                            <h5 class="card-title">IoT Products</h5>
+                            <p class="card-text">RDL IoT product series defines a new way of transforming factories into
+                                intelligent factories with minimum investment. internet of things - Aiming to better
+                                serve
+                                customers through greater flexibility of production and visibility of resources utilized
+                                .
+                                Improve business performance by supporting all-round optimization.</p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/img3.webp" alt="Product 3" class="img-fluid product-img">
+                            <h5 class="card-title">RFID Solutions</h5>
+                            <p class="card-text"> RDL's UHF RFID system is in-house developed customizable
+                                solution.Easily
+                                integratable with IoT & existing ERP systems and making them Intelligent, reduced
+                                dependency
+                                on human workforce. Our solution aims at improving inventory control and management to
+                                help
+                                achieve high operation efficiency and ROI .</p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="line-text">
+                ____________________________________________________________________________IoT
+                Solutions___________________________________________________________________________
+
+            </div>
+            <br>
+
+            <div>
+
+                <img src="./images/postr2.webp" alt="Placeholder Image" style="display: block; margin: auto;">
+                <h2 style="text-align: center;"><b>InsightsX - Shop Floor AI 4.0</b></h2>
+                <p>Many manufacturers find it hard to identify those specific losses that contribute to low machine
+                    productivity as they are difficult to identify, record , and analyze, so manufacturers are looking
+                    for
+                    digitize day-to-day manufacturing processes & support in making the move toward smart factory
+                    transformation.Shop Floor AI 4.0 solution integrates multiple technologies in a layered architecture
+                    supporting IoT devices,secure networking and Intelligent Applications that allow to achieve overall
+                    equipment effectiveness and improve the shop floor visibility & performance </p>
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary">Find out more</a>
+                </div>
+
+                <br>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/4.webp" alt="Product4" class="img-fluid product-img">
+                            <h5 class="card-title">Automated Machine Fault Alerting System</h5>
+                            <p class="card-text">Achieve higher productivity and utilization with Industry 4.0 features
+                                of
+                                Automated Machine Fault Altering system. Enabled with Preventive Analytics using Machine
+                                Learning reduces downtime and improves efficiency. </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/5.webp" alt="Product5" class="img-fluid product-img">
+                            <h5 class="card-title">Predictive Condition Monitoring System</h5>
+                            <p class="card-text">Deep Analytics based system, provide insight into prevailing conditions
+                                on
+                                the Production Floor. Ingests and process data from multiple sensors to deliver
+                                actionable
+                                intelligent reports. Enable management of large work force with minimal Technical
+                                expertise
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="line-text">
+                ____________________________________________________________________________IoT
+                Services___________________________________________________________________________
+
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/6.webp" alt="Product6" class="img-fluid product-img">
+                            <h5 class="card-title">PCB Design Service</h5>
+                            <p class="card-text">High Quality Printed circuit board (PCB) layout and design services is
+                                one
+                                of the major area where we help our customers through our expert engineering team to
+                                offer
+                                the best service at competitive prices. </p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/7.webp" alt="Product7" class="img-fluid product-img">
+                            <h5 class="card-title">H/W & S/W Design Service</h5>
+                            <p class="card-text">RDL has its own well-defined 45-days fast and quality life cycle for
+                                catering to the specific customization needs for design services in : Embedded System
+                                Design, IOT, and Automotive domains.</p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/8.webp" alt="Product8" class="img-fluid product-img">
+                            <h5 class="card-title">OEM ODM Services</h5>
+                            <p class="card-text">ODM (Original Designed Manufacturer) services showcasing our unique
+                                ability
+                                to provide the much needed support for customers starting from their abstract
+                                requirements
+                                to full-fledged realization of products. </p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/9.webp" alt="Product9" class="img-fluid product-img">
+                            <h5 class="card-title">HMI Design Service</h5>
+                            <p class="card-text">Having rich expertise in working on industrial automation & control
+                                systems
+                                to provide effective and appealing process visualization much needed for timely &
+                                accurate
+                                control decisions enabling efficient running of factories and assembly lines.</p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/10.webp" alt="Product10" class="img-fluid product-img">
+                            <h5 class="card-title">Enclosure Design Service</h5>
+                            <p class="card-text">RDL continuously strives to meet the specific customization services
+                                for
+                                industrial product enclosure designs while meeting the product needs along with relevant
+                                mechanical design, prototyping, and documentation.</p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/11.webp" alt="Product11" class="img-fluid product-img">
+                            <h5 class="card-title">EMS Service</h5>
+                            <p class="card-text">With established track record of providing superior quality in EMS
+                                services, RDL with its skilled team of engineers aided by state-of-the-art machinery,
+                                can
+                                cater to the needs ranging from quick prototyping to productions for large customer base
+                            </p>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div>
+                <h2 style="text-align: center;"><b>Our Clients</b></h2>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/client1.webp" alt="client1" class="img-fluid product-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/client2.webp" alt="client2" class="img-fluid product-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/client3.webp" alt="client3" class="img-fluid product-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/client4.webp" alt="client4" class="img-fluid product-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/client5.webp" alt="client5" class="img-fluid product-img">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+
+
+
+            <div>
+                <h2 style="text-align: center;"><b>Subscribe</b></h2>
+            </div>
+            <br>
+            <br>
+            <p style="text-align: center;">Sign up to hear from us about specials, sales, and events.</p>
+            <br>
+            <style>
+                /* CSS for rounded button */
+                input[type="submit"] {
+                    border-radius: 10px;
+                    /* Adjust the value to control the roundness */
+                    padding: 2px 8px;
+                    /* Adjust padding as needed */
+                    cursor: pointer;
+                }
+            </style>
+            <form action="/signup" method="POST" style="text-align: center;">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Sign Up">
+            </form>
+            <br>
+
+
+            <div class="line-text">
+                _______________________________________________________________________________Social_______________________________________________________________________________
+
+            </div>
+            <br>
+            <div class="icons" style="text-align: center;">
+                <a href="https://www.facebook.com/researchdesignlab/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/researchdesignlab"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/company/rdl-technologies-pvt-ltd"><ion-icon
+                        name="logo-linkedin"></ion-icon></a>
+                <a href="https://twitter.com/RDLab09"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+
+            </div>
+            <style>
+                .icons a ion-icon {
+                    color: black !important;
+                    /* Change color to black */
+                    font-size: 2em;
+                    /* Increase size */
+                }
+            </style><br>
+
+
+            <div class="section" id="location">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1 col-md-6 wow FadeInUp" data-wow-delay="0.6s">
+                            <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER_HERE" class="whatsapp-button"
+                                style="text-decoration: none;"><img src="./images/whatsapp2.jpg" alt="WhatsApp Icon"
+                                    class="whatsapp-icon">Message us on WhatsApp</a>
+                            <style>
+                                .whatsapp-icon {
+                                    width: 20px;
+                                    margin-right: 5px;
+                                }
+
+                                .whatsapp-button {
+                                    display: inline-block;
+                                    padding: 10px 20px;
+                                    background-color: #7a7b7a;
+                                    color: white;
+                                    border: none;
+                                    border-radius: 20px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    font-size: 16px;
+                                    margin-top: 20px;
+                                    text-align: center;
+                                }
+
+                                .whatsapp-button:hover {
+                                    color: rgb(9, 9, 9);
+                                }
+                            </style><br>
+                            <h2>RDL Technologies Pvt Ltd</h2>
+                            <p>Head Office: 5th floor ,Sahyadri Campus, Adyar, Mangaluru 575007, Karnataka.</p>
+                            <h6>Contact Number: +91 8088423347, 0824 2988407</h6>
+                            <h6>Email: sales@rdltech.in</h6><br><br>
+                            <h2>Hours</h2>
+                            <label for="time">Open Today:</label>
+                            <select id="time" name="time">
+                                <option value="09:00">9:00am</option>
+                                <option value="10:00">10:00am</option>
+                                <option value="11:00">11:00am</option>
+                                <option value="12:00">12:00pm</option>
+                                <option value="13:00">1:00pm</option>
+                                <option value="14:00">2:00pm</option>
+                                <option value="15:00">3:00pm</option>
+                                <option value="16:00">4:00pm</option>
+                                <option value="17:00">5:00pm</option>
+                            </select>
+
+                            <!-- <p><span class="day">Mon:</span> <span class="time">09:00 am – 05:00 pm</span></p>
+                            <p><span class="day">Tue:</span> <span class="time">09:00 am – 05:00 pm</span></p>
+                            <p><span class="day">Wed:</span> <span class="time">09:00 am – 05:00 pm</span></p>
+                            <p><span class="day">Thu:</span> <span class="time">09:00 am – 05:00 pm</span></p>
+                            <p><span class="day">Fri:</span> <span class="time">09:00 am – 05:00 pm</span></p>
+                            <p><span class="day">Sat:</span> <span class="time">Closed</span></p>     
+                            <p><span class="day">Sun:</span> <span class="time">Closed</span></p> -->
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-xs-10 wow FadeInUp" data-wow-delay="0.6s">
+                            <p><iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.642360739686!2d74.92274627366959!3d12.86636071717969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba358fec2031e37%3A0x8fbd0683c2725ca0!2sRDL%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1711602179909!5m2!1sen!2sin"
+                                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                        </div>
+                        <DIV class="col-md-1 col-sm-1"></DIV>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+
+
+
+
+
+
+        <footer>
+            <div class="footer" style="background-color: beige;">
+                <div class="row">
+                    <div class="col-md-12 wow fadeIn" data-wow-delay="0.8s">
+                        <p style="text-align: center;">Copyright © 2024 RDL Technologies Pvt Ltd - All Rights Reserved..
+                            <br>
+                        </p>
+                        <p style="text-align: center;">Powered by RDL</p>
+                        <a href="#" style="color: rgb(131, 129, 129);">Data Logger IIoT 4.0</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Energy management System</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Condition Monitorng</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Water Balancing System</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Shop</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Cloud PLC 4.0</a>
+                        <a href="#" style="color: rgb(131, 129, 129);">Indino 4.0</a>
+                        <hr>
+                        <style>
+                            .a {
+                                color: black;
+                            }
+                        </style>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</html>
